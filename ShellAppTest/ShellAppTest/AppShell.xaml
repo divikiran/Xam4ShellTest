@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+       xmlns:pages="clr-namespace:ShellAppTest.Pages" 
+       x:Class="ShellAppTest.AppShell">
+    <ShellItem Title="Home - item">
+        <ShellSection>
+            <ShellContent>
+                <pages:HomePage Title="Home - page" />
+            </ShellContent>
+        </ShellSection>
+    </ShellItem>
+    <ShellItem Title="About - item">
+        <ShellSection>
+            <ShellContent>
+                <pages:AboutPage Title="About - page" />
+            </ShellContent>
+        </ShellSection>
+    </ShellItem>
+</Shell>
